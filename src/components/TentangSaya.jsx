@@ -6,7 +6,7 @@ export default function TentangSaya({ deskripsi }) {
 
     return (
         <Kartu judul="Tentang Saya">
-            <p className="text-gray-700">
+            <p className="text-gray-700 dark:text-gray-300">
                 {deskripsi || teksDefault}
             </p>
         </Kartu>

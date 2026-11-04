@@ -13,10 +13,10 @@ export default function CitaCita({
 }) {
     return (
         <Kartu judul="Cita-cita">
-            <p className="mb-2 text-gray-700">
+            <p className="mb-2 text-gray-700 dark:text-gray-300">
                 Menjadi <strong>{impian}</strong>. Langkah yang saya rencanakan:
             </p>
-            <ol className="list-decimal space-y-1 pl-5 text-gray-700">
+            <ol className="list-decimal space-y-1 pl-5 text-gray-700 dark:text-gray-300">
                 {rencana.map((item) => (
                     <li key={item}>{item}</li>
                 ))}
