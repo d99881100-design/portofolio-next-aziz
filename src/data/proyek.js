@@ -29,13 +29,26 @@ export const proyek = [
         slug: "web_berita",
         judul: "NewsAzz",
         kategori: "HTML",
-        minggu: "Minggu 2",
+        minggu: "Minggu 03",
         gambar: "/proyek/web_berita.png",
         deskripsi: "website ini saya buat untuk memberikan berita terbaru yang valid",
         fitur: [
             "Update berita real time",
             "Berita terverifikasi",
             "Berita terpercaya",
+        ],
+    },
+    {
+        slug: "portofolio",
+        judul: "Portofolio",
+        kategori: "Next.js",
+        minggu: "Minggu 04",
+        gambar: "/proyek/portofolio.png",
+        deskripsi: "website ini saya buat untuk menampilkan portofolio profesional saya",
+        fitur: [
+            "Tentang Saya",
+            "Keahlian saya",
+            "Bakat dan minat saya",
         ],
     },
 ]
