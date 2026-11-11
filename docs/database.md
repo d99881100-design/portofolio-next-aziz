@@ -7,7 +7,7 @@ karena tercantum di `.gitignore` (`.env*`).
 
 ## Tabel `projects`
 
-Daftar proyek portofolio Andi Pratama.
+Daftar proyek portofolio Akhmad Roufun Aziz.
 | Kolom | Tipe | Keterangan |
 | --- | --- | --- |
 | `id` | `int8` | Primary key, nomor otomatis 1, 2, 3, ... |
@@ -41,7 +41,7 @@ pesan. Policy `insert` dibuat di Minggu 15.
 
 ## Tabel `skills`
 
-Daftar keahlian Andi Pratama.
+Daftar keahlian Akhmad Roufun Aziz.
 | Kolom | Tipe | Keterangan |
 | --- | --- | --- |
 | `id` | `int8` | Primary key, nomor otomatis 1, 2, 3, ... |

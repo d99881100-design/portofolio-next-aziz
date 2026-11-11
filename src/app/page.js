@@ -6,15 +6,11 @@ import { supabase } from "@/lib/supabase";
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 
-const skills = [
-  { nama: "HTML", level: "Menengah" },
-  { nama: "CSS", level: "Menengah" },
-  { nama: "Git dan GitHub", level: "Dasar" },
-  { nama: "Desain poster dengan Canva", level: "Menengah" },
-  { nama: "JavaScript", level: "Dasar" },
-];
-
 export default async function Home() {
+  const { data: skills } = await supabase
+    .from("skills")
+    .select("*")
+    .order("id");
   const { data: proyekTerbaru } = await supabase
     .from("projects")
     .select("*")
@@ -30,7 +26,7 @@ export default async function Home() {
 
       <Kartu judul="Keahlian">
         <div className="grid gap-4 md:grid-cols-3">
-          {skills.map((skill) => (
+          {skills && skills.map((skill) => (
             <SkillCard
               key={skill.nama}
               nama={skill.nama}
