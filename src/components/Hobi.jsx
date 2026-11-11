@@ -11,7 +11,7 @@ const defaultHobi = [
 export default function Hobi({ hobi = defaultHobi }) {
     return (
         <Kartu judul="Hobi">
-            <ul className="list-disc space-y-1 pl-5 text-gray-700 dark:text-gray-300">
+            <ul className="list-disc space-y-1 pl-5 text-muted-foreground">
                 {hobi.map((item) => (
                     <li key={item}>{item}</li>
                 ))}

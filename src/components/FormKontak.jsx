@@ -62,7 +62,7 @@ export default function FormKontak() {
                     className={kelasInput}
                 />
                 {error.nama && (
-                    <p className="mt-1 text-sm text-aksen dark:text-red-300">
+                    <p className="mt-1 text-sm text-aksen">
                         {error.nama}
                     </p>
                 )}
@@ -82,7 +82,7 @@ export default function FormKontak() {
                     className={kelasInput}
                 />
                 {error.email && (
-                    <p className="mt-1 text-sm text-aksen dark:text-red-300">
+                    <p className="mt-1 text-sm text-aksen">
                         {error.email}
                     </p>
                 )}
@@ -102,7 +102,7 @@ export default function FormKontak() {
                     className={kelasInput}
                 />
                 {error.hp && (
-                    <p className="mt-1 text-sm text-aksen dark:text-red-300">
+                    <p className="mt-1 text-sm text-aksen">
                         {error.hp}
                     </p>
                 )}
@@ -128,7 +128,7 @@ export default function FormKontak() {
                     <option value="lainnya">Lainnya</option>
                 </select>
                 {error.keperluan && (
-                    <p className="mt-1 text-sm text-aksen dark:text-red-300">
+                    <p className="mt-1 text-sm text-aksen">
                         {error.keperluan}
                     </p>
                 )}
@@ -149,7 +149,7 @@ export default function FormKontak() {
                     className={kelasInput}
                 />
                 {error.pesan && (
-                    <p className="mt-1 text-sm text-aksen dark:text-red-300">
+                    <p className="mt-1 text-sm text-aksen">
                         {error.pesan}
                     </p>
                 )}
