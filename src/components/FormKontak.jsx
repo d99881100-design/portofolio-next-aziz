@@ -161,8 +161,7 @@ export default function FormKontak() {
             </Button>
 
             <p className="text-sm text-gray-500 dark:text-gray-400">
-                Form ini belum mengirim pesan. Pengiriman pesan akan
-                dibuat di Minggu 15.
+                Form ini belum mengirim pesan. Untuk menyapa saya, tulis pesan di halaman Buku Tamu.
             </p>
 
             {berhasil && (
